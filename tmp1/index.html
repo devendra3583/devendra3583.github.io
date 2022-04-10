@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="iVelocity">
+<head>
+  <title>{{WEBSITE_NAME}}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/jpeg" href="img/icon.jpg">
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
+  <!-- For Angular Material -->
+  <link rel="stylesheet" href="css/angular-material.min.css">
+  <!-- For MATERIAL FOR BOOTSTRAP -->
+  <link rel="stylesheet" href="thirdpartylib/css/bootstrap-material-design.css">
+  <link rel="stylesheet" href="thirdpartylib/css/videogular.css">
+  <link rel="stylesheet" href="thirdpartylib/css/ripples.css">
+  
+  <!-- For Animation -->
+  <link rel="stylesheet" href="thirdpartylib/css/animate.css">
+
+  <script src="thirdpartylib/js/angular.min.js"></script>
+  <script src="thirdpartylib/js/angular-ui-router.min.js"></script>
+  <script src="script/app.js"></script>
+  <script src="script/constants.js"></script>
+  <script src="script/run.js"></script>
+  <script src="script/config.js"></script>
+  <script src="script/services.js"></script>
+  <script src="script/directives.js"></script>
+  <script src="script/homeCtrl.js"></script>
+  <script src="script/signUpCtrl.js"></script>
+  <script src="script/loginCtrl.js"></script>
+  <script src="script/aboutUsCtrl.js"></script>
+  <script src="script/contactUsCtrl.js"></script>
+  <script src="thirdpartylib/js/jquery.min.js"></script>
+  <script src="thirdpartylib/js/bootstrap.min.js"></script>
+  <! -- For Angular Material -->
+  <script src="thirdpartylib/js/angular-animate.min.js"></script>
+  <script src="thirdpartylib/js/angular-aria.min.js"></script>
+  <script src="thirdpartylib/js/angular-messages.min.js"></script>
+  <script src="thirdpartylib/js/angular-material.min.js"></script>
+  <script src="thirdpartylib/js/ng-video.min.js"></script>
+
+  	<script src="thirdpartylib/js/angular-sanitize.min.js"></script>
+	<script src="thirdpartylib/js/videogular.js"></script>
+	<script src="thirdpartylib/js/vg-controls.js"></script>
+	<script src="thirdpartylib/js/vg-overlay-play.js"></script>
+	<script src="thirdpartylib/js/vg-poster.js"></script>
+	<script src="thirdpartylib/js/vg-buffering.js"></script>
+	<!-- For MATERIAL FOR BOOTSTRAP -->
+	<script src="thirdpartylib/js/material.min.js"></script>
+	<script src="thirdpartylib/js/ripples.min.js"></script>
+  <!-- For recaptcha -->
+  <script src="thirdpartylib/js/angular-recaptcha.min.js"></script>
+  <script src=“https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&render=explicit“ async defer></script>
+  <!-- For Internationalisation : angular-translate -->
+  <script src="thirdpartylib/js/angular-translate.min.js"></script>
+  <script src="thirdpartylib/js/angular-translate-loader-static-files.min.js"></script>
+</head>
+<body>
+<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+myFirstAd 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9913095687785533"
+     data-ad-slot="5452683609"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>-->
+
+<nav class="navbar navbar-inverse navbar-fixed-top navigation-bar-background-color">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>Menu
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="img-responsive" style="max-width: 100px; margin-top: -10px" src="img/logo.jpg"></a>
+                </div>
+                <div>
+                  <select style="color: black;" ng-options="l as l.displayName for l in languages" ng-model="selectedLanguage" ng-change="changeLanguage(selectedLanguage.name)"><option value="" selected>Select Language</select>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a ui-sref="home">{{'HOME_TEXT' | translate}}</a></li>
+                        <!--<li><a ui-sref="explore">Explore</a></li>
+                        <li><a ui-sref="begin">Begin</a></li>
+                        <li><a ui-sref="idea">Idea</a></li>
+                        <li><a ui-sref="creativeshop">Creative Shop</a></li>
+                        <li><a ui-sref="event">Event</a></li>-->
+                        <li><a ui-sref="signup">{{'SIGN_UP_TEXT' | translate}}</a></li>
+                        <li><a ui-sref="login">{{'LOGIN_TEXT' | translate}}</a></li>
+                        <li><a ui-sref="aboutus">{{'ABOUT_US_TEXT' | translate}}</a></li>
+                        <li><a ui-sref="contactus">{{'CONTACT_US_TEXT' | translate}}</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <!--<input type="text" class="form-control" placeholder="Search...">-->
+                    </form>
+                </div>
+            </div>
+        </nav>
+<div ui-view></div>
+<footer style="margin-top:100px;text-align: center;">
+  <p>© Copyright 2017 | {{WEBSITE_NAME}} | All Rights Reserved</p>
+</footer>
+<script>
+  $.material.init()
+</script>
+</body>
+</html>
