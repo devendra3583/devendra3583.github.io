@@ -24,7 +24,7 @@ $scope.videoAPI = null;
             };
             $scope.config = {
                 sources: [
-                    {src: $sce.trustAsResourceUrl("http://static.videogular.com/assets/videos/videogular.mp4"), type: "video/mp4"}
+                    {src: $sce.trustAsResourceUrl("https://devendra3583.github.io/tmp2/vid/1.MP4"), type: "video/mp4"}
                 ],
                 theme: "thirdpartylib/css/videogular.css",
                 plugins: {

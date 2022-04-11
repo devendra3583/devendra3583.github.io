@@ -1,7 +1,7 @@
 <div class="container margin-top-title">
   <div class="jumbotron">
     <h1>{{'HOME_TEXT' | translate}}</h1>
-    <p>The Home Page</p> 
+    <p>Book(s) Summary</p> 
   </div>
   <div class="row">
 
@@ -16,7 +16,7 @@
   </tr>
   <tr data-ng-repeat="h in health">
     <td>{{h.id}}.</td>
-    <td>{{h.name}}</td>
+    <td>{{h.name}} -{{h.author}}</td>
   </tr>
 </table> 
 
@@ -32,7 +32,7 @@
   </tr>
   <tr data-ng-repeat="w in wealth">
     <td>{{w.id}}.</td>
-    <td>{{w.name}}</td>
+    <td>{{w.name}} -{{w.author}}</td>
   </tr>
 </table> 
 
@@ -48,7 +48,7 @@
   </tr>
   <tr data-ng-repeat="l in love">
     <td>{{l.id}}.</td>
-    <td>{{l.name}}</td>
+    <td>{{l.name}} -{{l.author}}</td>
   </tr>
 </table> 
 
@@ -65,7 +65,7 @@
   </tr>
   <tr data-ng-repeat="ha in happiness">
     <td>{{ha.id}}.</td>
-    <td>{{ha.name}}</td>
+    <td>{{ha.name}} -{{ha.author}}</td>
   </tr>
 </table> 
 
