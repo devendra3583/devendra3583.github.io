@@ -115,33 +115,122 @@ app.controller('homeCtrl', ['$scope', function ($scope) {
                 "id": 20,
                 "name": "The Success Principles",
                 "author": "Jack Canfield"
+            },
+            {
+                "id": 21,
+                "name": "THE GREATEST SALESMAN IN THE WORLD",
+                "author": "OG MANDINO"
+            },
+            {
+                "id": 22,
+                "name": "THE MILLIONAIRE MIND",
+                "author": "Thomas J. Stanley, PhD"
+            },
+            {
+                "id": 23,
+                "name": "THE MILLIONAIRE NEXT DOOR",
+                "author": "Thomas J. Stanley, PhD, William D. Denko, PhD"
+            },
+            {
+                "id": 24,
+                "name": "THE ENTREPRENEUR MIND",
+                "author": "KEVIN D. JOHNSON"
+            },
+            {
+                "id": 25,
+                "name": "From the RAT RACE to FINANCIAL FREEDOM: A common man’s journey",
+                "author": "MANOJ ARORA"
+            },
+            {
+                "id": 26,
+                "name": "THE 7 HABITS OF HIGHLY EFFECTIVE PEOPLE",
+                "author": "STEPHEN R. COVEY"
+            },
+            {
+                "id": 27,
+                "name": "WARREN BUFFET WEALTH - PRINCIPLES & PRACTICAL METHODS USED BY THE WORLD'S GREATEST INVESTOR",
+                "author": "ROBERT P. MILES - WILEY"
+            },
+            {
+                "id": 28,
+                "name": "Secrets of The Millionaire Mind - Mastering The Inner Game of Wealth",
+                "author": "T Harv Eker"
+            },
+            {
+                "id": 29,
+                "name": "How Rich People Think",
+                "author": "Steve Siebold"
+            },
+            {
+                "id": 30,
+                "name": "UNSTOPPABLE",
+                "author": "CYNTHIA KERSEY"
+            },
+            {
+                "id": 31,
+                "name": "The 67 Steps",
+                "author": "Tai Lopez (Audios)"
+            },
+            {
+                "id": 32,
+                "name": "The Go-Getter",
+                "author": "Peter Kyne"
+            },
+            {
+                "id": 33,
+                "name": "The Fish That Ate the Whale: The Life & Times of America’s Banana King",
+                "author": "Rich Cohen"
+            },
+            {
+                "id": 34,
+                "name": "Willpower: Rediscovering the Greatest Human Strength",
+                "author": "Roy Baumeister & John Tierney"
+            },
+            {
+                "id": 35,
+                "name": "The Essential Drucker",
+                "author": "Peter F. Drucker"
+            },
+            {
+                "id": 36,
+                "name": "The Magic of Thinking Big",
+                "author": "David J. Schwartz"
+            },
+            {
+                "id": 37,
+                "name": "Compelling People: The Hidden Qualities That Make Us Influential",
+                "author": "John Neffinger & Matthew Kohut"
+            },
+            {
+                "id": 38,
+                "name": "King of Capital: The Remarkable Rise, Fall & Rise Again of Steve Schwarzman and Blackstone",
+                "author": "David Carey"
+            },
+            {
+                "id": 39,
+                "name": "How Google Works",
+                "author": "Eric Schmidt"
+            },
+            {
+                "id": 20,
+                "name": "Screw It, Let’s Do It: Lessons in Life & Business",
+                "author": "Richard Branson"
             }
+
+
+
 
 
 
 /*
 
 
-THE GREATEST SALESMAN IN THE WORLD -OG MANDINO
-THE MILLIONAIRE MIND -Thomas J. Stanley, PhD
-THE MILLIONAIRE NEXT DOOR -Thomas J. Stanley, PhD, William D. Denko, PhD
-THE ENTREPRENEUR MIND -KEVIN D. JOHNSON
-From the RAT RACE to FINANCIAL FREEDOM: A common man’s journey -MANOJ ARORA
-THE 7 HABITS OF HIGHLY EFFECTIVE PEOPLE -STEPHEN R. COVEY
-WARREN BUFFET WEALTH - PRINCIPLES & PRACTICAL METHODS USED BY THE WORLD'S GREATEST INVESTOR -ROBERT P. MILES - WILEY
-Secrets of The Millionaire Mind - Mastering The Inner Game of Wealth -T Harv Eker
-How Rich People Think -Steve Siebold
-UNSTOPPABLE by CYNTHIA KERSEY
-The 67 Steps by Tai Lopez
-The Go-Getter by Peter Kyne pdf
-The Fish That Ate the Whale: The Life & Times of America’s Banana King – By Rich Cohen
-Willpower: Rediscovering the Greatest Human Strength – By Roy Baumeister & John Tierney
-The Essential Drucker – By Peter F. Drucker
-The Magic of Thinking Big  -By David J. Schwartz
-Compelling People: The Hidden Qualities That Make Us Influential – By John Neffinger & Matthew Kohut
-King of Capital: The Remarkable Rise, Fall & Rise Again of Steve Schwarzman and Blackstone – By David Carey
-How Google Works – By Eric Schmidt
-Screw It, Let’s Do It: Lessons in Life & Business – By Richard Branson
+
+
+
+
+
+
 Where Good Ideas Come From – By Steven Johnson
 The Self-Made Billionaire Effect: How Extreme Producers Create Massive Value – John Sviokla & Mitch Cohen
 The Art of War – By Sun Tzu
