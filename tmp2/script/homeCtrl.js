@@ -212,7 +212,7 @@ app.controller('homeCtrl', ['$scope', function ($scope) {
                 "author": "Eric Schmidt"
             },
             {
-                "id": 20,
+                "id": 40,
                 "name": "Screw It, Let’s Do It: Lessons in Life & Business",
                 "author": "Richard Branson"
             }
@@ -264,7 +264,7 @@ Maslow on Management -Arbraham Maslow
 What to say When you talk to yourself -Dr. Shed Helmstetter
 Changing the Game, The New Way to Sell -Larry Wilson
 The 48 Rules of Power -Robert Greene
-The Art of Seduction -Robert Greene
+
 THE LAWS OF HUMAN NATURE -ROBERT GREENE
 Getting Things Done -David Allen
 Declarations to the Sub-conscious Mind (according to Secrets of The Millionaire Mind - Mastering The Inner Game of Wealth -T Harv Eker Pg-15
