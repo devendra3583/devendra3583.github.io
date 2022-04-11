@@ -215,6 +215,206 @@ app.controller('homeCtrl', ['$scope', function ($scope) {
                 "id": 40,
                 "name": "Screw It, Let’s Do It: Lessons in Life & Business",
                 "author": "Richard Branson"
+            },
+            {
+                "id": 41,
+                "name": "Where Good Ideas Come From",
+                "author": "Steven Johnson"
+            },
+            {
+                "id": 42,
+                "name": "The Self-Made Billionaire Effect: How Extreme Producers Create Massive Value",
+                "author": "John Sviokla & Mitch Cohen"
+            },
+            {
+                "id": 43,
+                "name": "The Art of War",
+                "author": "Sun Tzu"
+            },
+            {
+                "id": 44,
+                "name": "",
+                "author": ""
+            },
+            {
+                "id": 45,
+                "name": "Bounce",
+                "author": "Matthew Syed"
+            },
+            {
+                "id": 46,
+                "name": "Subliminal: How Your Unconscious Mind Rules Your Behavior",
+                "author": "Leonard Mlodinow"
+            },
+            {
+                "id": 47,
+                "name": "The Winner Effect",
+                "author": "Ian H. Robertson"
+            },
+            {
+                "id": 48,
+                "name": "A Few Lessons For Investors and Managers",
+                "author": "Warren Buffett"
+            },
+            {
+                "id": 49,
+                "name": "The Snowball: Warren Buffett & The Business of Life",
+                "author": "Alice Schroeder"
+            },
+            {
+                "id": 50,
+                "name": "Poor Charlie’s Almanack: The Wit and Wisdom of Charles T. Munger",
+                "author": "Peter Kaufman"
+            },
+            {
+                "id": 51,
+                "name": "Testing Advertising Methods",
+                "author": "John Caples"
+            },
+            {
+                "id": 52,
+                "name": "Smart Pricing",
+                "author": "Jagmohan Raju & Z. John Zhang"
+            },
+            {
+                "id": 53,
+                "name": "How to Get Rich",
+                "author": "Felix Dennis"
+            },
+            {
+                "id": 54,
+                "name": "Pitch Anything",
+                "author": "Oren Klaff"
+            },
+            {
+                "id": 55,
+                "name": "Confessions of An Advertising Man",
+                "author": "David Ogilvy"
+            },
+            {
+                "id": 56,
+                "name": "HOW TO BE A BILLIONAIRE: PROVEN STRATEGIES FROM THE TITANS OF WEALTH",
+                "author": "MARTIN S. FRIDSON, CFA"
+            },
+            {
+                "id": 57,
+                "name": "Human Resource Management",
+                "author": "Robert L. Mathis & John H. Jackson"
+            },
+            {
+                "id": 58,
+                "name": "",
+                "author": ""
+            },
+            {
+                "id": 59,
+                "name": "",
+                "author": ""
+            },
+            {
+                "id": 60,
+                "name": "Emotional Intelligene",
+                "author": "Daniel Goleman"
+            },
+            {
+                "id": 61,
+                "name": "Becoming a crtical thinker",
+                "author": "Sherry Diestler"
+            },
+            {
+                "id": 62,
+                "name": "Breaking the No Barrier",
+                "author": "Walter Hailey"
+            },
+            {
+                "id": 63,
+                "name": "The Dynamic Laws of Prosperity",
+                "author": "Catherine Ponder"
+            },
+            {
+                "id": 64,
+                "name": "Power Linguistics",
+                "author": "Dave Yoho"
+            },
+            {
+                "id": 65,
+                "name": "There’s a spiritual solution to every problem",
+                "author": "Dr. Wayne Dyer"
+            },
+            {
+                "id": 66,
+                "name": "",
+                "author": ""
+            },
+            {
+                "id": 67,
+                "name": "Power vs Force",
+                "author": "Dacid R Hawkins, MD, PhD"
+            },
+            {
+                "id": 68,
+                "name": "The Edge: The Guide to Fulfilling Dreams, Maximizing Success and Enjoying a Lifetime of Achievement",
+                "author": "Howard Ferguson"
+            },
+            {
+                "id": 69,
+                "name": "The Artist’s Way",
+                "author": "Julia Cameron"
+            },
+            {
+                "id": 70,
+                "name": "Maslow on Management",
+                "author": "Arbraham Maslow"
+            },
+            {
+                "id": 71,
+                "name": "What to say When you talk to yourself",
+                "author": "Dr. Shed Helmstetter"
+            },
+            {
+                "id": 72,
+                "name": "Changing the Game, The New Way to Sell",
+                "author": "Larry Wilson"
+            },
+            {
+                "id": 73,
+                "name": "The 48 Rules of Power",
+                "author": "Robert Greene"
+            },
+            {
+                "id": 74,
+                "name": "",
+                "author": ""
+            },
+            {
+                "id": 75,
+                "name": "THE LAWS OF HUMAN NATURE",
+                "author": "ROBERT GREENE"
+            },
+            {
+                "id": 76,
+                "name": "Getting Things Done",
+                "author": "David Allen"
+            },
+            {
+                "id": 77,
+                "name": "",
+                "author": ""
+            },
+            {
+                "id": 78,
+                "name": "SMART WORK, HARD WORK",
+                "author": "ATUL MAGOON"
+            },
+            {
+                "id": 79,
+                "name": "A Fine Line Between Art and Entertainment",
+                "author": "Victor Borge"
+            },
+            {
+                "id": 80,
+                "name": "Atomic Habits",
+                "author": "James Clear"
             }
 
 
@@ -226,51 +426,6 @@ app.controller('homeCtrl', ['$scope', function ($scope) {
 
 
 
-
-
-
-
-
-Where Good Ideas Come From – By Steven Johnson
-The Self-Made Billionaire Effect: How Extreme Producers Create Massive Value – John Sviokla & Mitch Cohen
-The Art of War – By Sun Tzu
-The Self-Made Billionaire Effect: How Extreme Producers Create Massive Value – John Sviokla & Mitch Cohen
-Bounce – By Matthew Syed
-Subliminal: How Your Unconscious Mind Rules Your Behavior – By Leonard Mlodinow
-The Winner Effect – By Ian H. Robertson
-A Few Lessons For Investors and Managers – By Warren Buffett
-The Snowball: Warren Buffett & The Business of Life – By Alice Schroeder
-Poor Charlie’s Almanack: The Wit and Wisdom of Charles T. Munger – By Peter Kaufman
-Testing Advertising Methods – By John Caples
-Smart Pricing – By Jagmohan Raju & Z. John Zhang
-How to Get Rich – By Felix Dennis
-Pitch Anything – By Oren Klaff
-Confessions of An Advertising Man – By David Ogilvy
-HOW TO BE A BILLIONAIRE: PROVEN STRATEGIES FROM THE TITANS OF WEALTH -MARTIN S. FRIDSON, CFA
-Human Resource Management – By Robert L. Mathis & John H. Jackson
-Characteristics of the "World Class Rich" -DKA (main ideas taken from 177 Mental Toughness Secrets of World Class by Steve Seibold)
-Good Clean Jokes -Bob Philips
-Emotional Intelligene -Daniel Goleman
-Becoming a crtical thinker -Sherry Diestler
-Breaking the No Barrier -Walter Hailey
-The Dynamic Laws of Prosperity -Catherine Ponder
-Power Linguistics -Dave Yoho
-There’s a spiritual solution to every problem -Dr. Wayne Dyer
-Fear -the biggest energy sucker known to man.
-Power vs Force -Dacid R Hawkins, MD, PhD
-The Edge: The Guide to Fulfilling Dreams, Maximizing Success and Enjoying a Lifetime of Achievement -Howard Ferguson
-The Artist’s Way -Julia Cameron
-Maslow on Management -Arbraham Maslow
-What to say When you talk to yourself -Dr. Shed Helmstetter
-Changing the Game, The New Way to Sell -Larry Wilson
-The 48 Rules of Power -Robert Greene
-
-THE LAWS OF HUMAN NATURE -ROBERT GREENE
-Getting Things Done -David Allen
-Declarations to the Sub-conscious Mind (according to Secrets of The Millionaire Mind - Mastering The Inner Game of Wealth -T Harv Eker Pg-15
-SMART WORK, HARD WORK -ATUL MAGOON
-A Fine Line Between Art and Entertainment  Victor Borge
-Atomic Habits -James Clear
 THE SCIENCE OF MAKING MONEY -DOYLE H ROBERTS
 THE MASTER KEY SYSTEM -CHARLES F HAANEL
 ORIGINALITY - A POPULAR STUDY OF THE CREATIVE MIND -T SHARPER KNOWLSON 
