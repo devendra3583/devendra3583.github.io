@@ -65,29 +65,63 @@ app.controller('homeCtrl', ['$scope', function ($scope) {
                 "id": 10,
                 "name": "The Leverage EQUATION.",
                 "author": "Todd Tressider"
+            },
+            {
+                "id": 11,
+                "name": "How much money do I need to retire",
+                "author": "Todd Tressider"
+            },
+            {
+                "id": 12,
+                "name": "",
+                "author": ""
+            },
+            {
+                "id": 13,
+                "name": "Wealth Creation Thoughts",
+                "author": "Raamdeo Agarwal"
+            },
+            {
+                "id": 14,
+                "name": "THE POWER OF HABIT",
+                "author": "CHARLES DUHIGG"
+            },
+            {
+                "id": 15,
+                "name": "Why A Students work for C Students and B Student work for the Government",
+                "author": "Robert Kiyosaki"
+            },
+            {
+                "id": 16,
+                "name": "How to Win Friends and Influence People",
+                "author": "Dale Carnegie"
+            },
+            {
+                "id": 17,
+                "name": "THE SECRETS TO POSITIVE CASHFLOW",
+                "author": "Rich Dad (Document)"
+            },
+            {
+                "id": 18,
+                "name": "Stochastic calculus and finance",
+                "author": "Steven Shreve"
+            },
+            {
+                "id": 19,
+                "name": "Influence: The Psychology of Persuasion, Revised Edition",
+                "author": "ROBERT B. CIALDINI, PH.D."
+            },
+            {
+                "id": 20,
+                "name": "The Success Principles",
+                "author": "Jack Canfield"
             }
 
 
 
 /*
- -
- -
- -
- -
- -
- -
- -
-. -
-How much money do I need to retire -Todd Tressider
-why beautiful people have more daughters -Alan S. Miller and Satoshi Kanazawa
-Wealth Creation Thoughts -Raamdeo Agarwal
-THE POWER OF HABIT -CHARLES DUHIGG
-Why A Students work for C Students and B Student work for the Government -Robert Kiyosaki
-How to Win Friends and Influence People -Dale Carnegie
-THE SECRETS TO POSITIVE CASHFLOW -Rich Dad (Document)
-Stochastic calculus and finance -Steven Shreve
-Influence: The Psychology of Persuasion, Revised Edition -ROBERT B. CIALDINI, PH.D.
-The Success Principles -Jack Canfield
+
+
 THE GREATEST SALESMAN IN THE WORLD -OG MANDINO
 THE MILLIONAIRE MIND -Thomas J. Stanley, PhD
 THE MILLIONAIRE NEXT DOOR -Thomas J. Stanley, PhD, William D. Denko, PhD
