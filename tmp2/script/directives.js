@@ -40,13 +40,13 @@ app.directive('displayVideo2', function () {
             title: '@'         
         },
         templateUrl: 'templates/displayVideoTemplate.html',
-        controller: displayVideoCtrl, //Embed a custom controller in the directive
+        controller: displayVideoCtrl2, //Embed a custom controller in the directive
         link: function ($scope, element, attrs) { } //DOM manipulation
     };
     return directive;
 })
 
-function displayVideoCtrl($scope, $sce){
+function displayVideoCtrl2($scope, $sce){
 $scope.videoAPI = null;
             $scope.onPlayerReady = function (API) {
                 $scope.videoAPI = API;
