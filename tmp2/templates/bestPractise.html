@@ -1,0 +1,25 @@
+<div class="container margin-top-title">
+  <div class="jumbotron">
+    <h1>Best Practises - Life</h1>
+    <p>Best!</p> 
+  </div>
+  <div class="row background-image-event">
+    <div class="col-sm-12">
+      <table>
+        <tr>
+          <th>S.No.</th>
+          <th>Item</th>
+        </tr>
+        <tr data-ng-repeat="b in best">
+          <td>{{b.id}}.</td>
+          <td>{{b.name}}</td>
+          <td>
+              <ul>
+                <li data-ng-repeat="i in b.items">{{i.name}}</li>
+              </ul>
+          </td>
+        </tr>
+      </table> 
+    </div>
+  </div>
+</div>

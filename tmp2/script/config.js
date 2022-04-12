@@ -34,6 +34,11 @@ app.config(function ($stateProvider, $urlRouterProvider, $translateProvider) {
                 url: "/travel",
                 templateUrl: "templates/travel.html",
                 controller: "travelCtrl"
+            })
+            .state('best', {
+                url: "/best",
+                templateUrl: "templates/bestPractise.html",
+                controller: "bestPractiseCtrl"
             });
 
             var fileNameConvention = {
